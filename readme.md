@@ -21,17 +21,17 @@
 	</tr>
 	</tr>
 		<th align="left">datanode2</th>
-		<th align="left">10.125.110.121</th>
+		<th align="left">10.125.110.115</th>
 		<th align="left">从节点，DataNode，NodeManager</th>
 	</tr>
 	</tr>
 		<th align="left">datanode3</th>
-		<th align="left">10.125.110.121</th>
+		<th align="left">10.125.110.100</th>
 		<th align="left">从节点，DataNode，NodeManager</th>
 	</tr>
 	</tr>
 		<th align="left">datanode4</th>
-		<th align="left">10.125.110.121</th>
+		<th align="left">10.125.110.66</th>
 		<th align="left">从节点，DataNode，NodeManager</th>
 	</tr>
 </table>
@@ -53,15 +53,10 @@
 1. 已配置好的环境请勿随意改动，若有改动，请将改动之处append至log.txt文件处，并commit此文件
 
 2. 各组的代码，项目，模型，以及各种中间产物请放置在主机namenode的对应目录下:
-
     *刘润涛组: /home/dachuang/workspace/liuruntao
-    
     *刘昕彤组：/home/dachuang/workspace/liuxintong
 
 3. Hive与HBase命名规范:
-
     *所有字母均小写，单词以下划线分割
-
     *database: db + "_" + 组长名 + "_" + DB名称, e.g: db_liuruntao_db1
-    
     *table: 组长名 + "_" +  表名， e.g: liuruntao_table1
